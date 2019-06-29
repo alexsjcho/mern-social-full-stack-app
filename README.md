@@ -1,4 +1,4 @@
-# PROJECT OVERVIEW
+# DEVUP PROJECT OVERVIEW
 
 Social media app to connect developers. Project is focused on helping them create profiles, integrate their social media presences, and more
 
