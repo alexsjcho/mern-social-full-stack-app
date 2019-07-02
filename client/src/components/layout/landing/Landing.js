@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import HeadLine from './HeadLine';
 import ProjectInfo from './ProjectInfo';
+import Challenges from './Challenges';
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
@@ -13,6 +14,7 @@ const Landing = ({ isAuthenticated }) => {
   return (
     <Fragment>
       <HeadLine />
+      <Challenges />
       <ProjectInfo />
     </Fragment>
   );

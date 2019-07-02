@@ -16,7 +16,6 @@ const ProjectInfo = () => {
             <h3>ABOUT THIS PROJECT</h3>
           </Badge>
         </Container>
-        <br />
         <Row>
           <Col>
             <Card>
@@ -55,7 +54,7 @@ const ProjectInfo = () => {
                 <Button variant='primary'>
                   <a
                     style={{ color: 'white' }}
-                    href='https://docs.google.com/spreadsheets/d/1rEqcpEd8b2sCHKsGvMcy7s1Rh6V66-jFo1X5c5EcSOE/edit?usp=sharing'>
+                    href='https://docs.google.com/spreadsheets/d/1o4sprh2MZLxBz51ovs73EU60IZluEcdfZgjpZjyBkiU/edit?usp=sharing'>
                     Google Sheets
                   </a>{' '}
                 </Button>
@@ -111,7 +110,6 @@ const ProjectInfo = () => {
           </Col>
         </Row>
       </Container>
-      <br />
     </Fragment>
   );
 };
