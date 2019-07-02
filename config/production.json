@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://cho123:cho123@mernapp-z8tpd.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "1848f26103672622f32c",
+  "githubSecret": "b3ed00a97c66d45dfefa86e55f26e2a8ad9ab39c"
+}
