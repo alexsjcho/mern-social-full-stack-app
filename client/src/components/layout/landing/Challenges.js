@@ -10,7 +10,7 @@ const Challenges = () => {
   return (
     <Container>
       <Container className='d-flex justify-content-center '>
-        <Badge variant='warning'>
+        <Badge variant='danger'>
           <h3>DEVELOPER CHALLENGES</h3>
         </Badge>
       </Container>

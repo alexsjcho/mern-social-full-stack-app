@@ -12,7 +12,7 @@ const ProjectInfo = () => {
     <Fragment>
       <Container>
         <Container className='d-flex justify-content-center '>
-          <Badge variant='secondary'>
+          <Badge variant='primary'>
             <h3>ABOUT THIS PROJECT</h3>
           </Badge>
         </Container>

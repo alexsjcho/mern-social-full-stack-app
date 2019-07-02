@@ -57,6 +57,7 @@ Create profiles that have education, experience, bio, skillset, and social media
 ## FUTURE IMPROVEMENTS
 
 1. _Add Marketplace_: Hook up with Udemy API or something where developers can buy courses inside the app
+2. _Job Search_: Potentially add a job API from Greenhouse to allow users to find jobs in the platform
 
 # MENTORS
 

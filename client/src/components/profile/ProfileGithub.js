@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import Moment from 'react-moment';
 import Spinner from '../layout/Spinner';
 import { getGithubRepos } from '../../actions/profile';
 
@@ -37,6 +38,16 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
                   Watchers: {repo.watchers_count}
                 </li>
                 <li className='badge badge-light'>Forks: {repo.forks_count}</li>
+                <li className='badge badge-light'>
+                  {' '}
+                  Created at:{' '}
+                  <Moment format='YYYY/MM/DD'>{repo.created_at}</Moment>{' '}
+                </li>
+                <li className='badge badge-light'>
+                  {' '}
+                  Updated at:{' '}
+                  <Moment format='YYYY/MM/DD'>{repo.updated_at}</Moment>{' '}
+                </li>
               </ul>
             </div>
           </div>

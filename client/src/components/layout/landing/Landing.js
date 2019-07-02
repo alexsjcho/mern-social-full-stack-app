@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import HeadLine from './HeadLine';
 import ProjectInfo from './ProjectInfo';
 import Challenges from './Challenges';
+import Solution from './Solution';
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
@@ -15,6 +16,7 @@ const Landing = ({ isAuthenticated }) => {
     <Fragment>
       <HeadLine />
       <Challenges />
+      <Solution />
       <ProjectInfo />
     </Fragment>
   );
