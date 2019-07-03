@@ -4,7 +4,7 @@ Social media app to connect developers. Project is focused on helping them creat
 
 ### JavaScript MERN Stack App
 
-1. [Link to Live Demo App {COMING SOON} ](#)
+1. [Link to Live Demo App](https://mysterious-beach-31537.herokuapp.com/)
 2. [Product Development Roadmap Google Sheet ](https://docs.google.com/spreadsheets/d/1o4sprh2MZLxBz51ovs73EU60IZluEcdfZgjpZjyBkiU/edit?usp=sharing)
 3. [Trello Board: Project Management](https://trello.com/b/sm1E6ew0/devup-mern-stack-project)
 4. [Link to GitHub Repo ](https://github.com/alexsjcho/mern-social-full-stack-app)
